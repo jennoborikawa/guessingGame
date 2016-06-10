@@ -1,0 +1,29 @@
+body {
+    background-color: 
+}
+
+h1 {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.guess {
+    font-size: 23px;
+    text-align: center; 
+    padding: 20px;
+}
+
+.hot {
+    text-align: center; 
+    padding: 60px;
+}
+
+.cold {
+    text-align: center;
+    padding: 60px;
+}
+
+
+.buttons {
+    padding-top: 60px;
+}

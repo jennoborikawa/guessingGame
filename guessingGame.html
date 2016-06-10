@@ -1,0 +1,65 @@
+<!--REQUIREMENTS-->
+<!--2-4 buttons-->
+<!--1 input field -->
+<!--unique design -->
+<!--new GitHub repository for the game-->
+<!--guess a number between 1-100. -->
+<!--The app should respond if you are 'hot' or 'cold' based on how close you are to the number you are trying to guess.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Jon Snow Guessing Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="guessingGame.css"/>
+</head>
+
+<body>
+  
+  <!--title and gif-->
+  <div class="banner">
+    <center><h1>The Jon Snow Guessing Game</h1></center>
+    <div id="gif"
+      <center><img src="https://media.giphy.com/media/12BWf7VxMt6tG/giphy.gif"></center>
+    </div>
+  </div>
+  
+  
+  <div class="columns">  
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-4">
+          <div class="hot">
+            [hot message + image here]
+          </div>
+        </div>
+        
+      <div class="col-sm-4">
+        <div class="guess">
+          <label for="ex1">How many times was the Lord Commander stabbed? (1-100)</label>
+          <input class="form-control" id="ex1" type="text">
+          <div class="buttons">
+            <button type="button" class="btn-success">Submit Guess</button>
+            <button type="button" class="btn-info">Give Up & Become a White Walker</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-4">
+        <div class="cold">
+          [cold message + image here]
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>

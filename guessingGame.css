@@ -1,10 +1,14 @@
 body {
-    background-color: 
+    background-size: cover;
 }
 
 h1 {
     font-size: 36px;
     padding: 20px;
+}
+
+label {
+    padding: 15px;
 }
 
 .guess {
@@ -13,17 +17,47 @@ h1 {
     padding: 20px;
 }
 
-.hot {
+.hot-cold {
     text-align: center; 
     padding: 60px;
+    position: fixed;
+    bottom: 0px;
+    display: none;
 }
 
-.cold {
-    text-align: center;
-    padding: 60px;
-}
+/*.cold {*/
+/*    text-align: center;*/
+/*    padding: 60px;*/
+/*    position: fixed;*/
+/*    bottom: 0px;*/
+/*    display: none;*/
+/*}*/
 
 
 .buttons {
     padding-top: 60px;
+}
+
+#high-msg {
+    display: none;
+}
+
+#low-msg {
+    display: none;
+}
+
+#duplicate-msg {
+    display: none;
+}
+
+#win-msg {
+    display: none;
+    color: white;
+    font-size: 300%;
+}
+
+#lose-msg {
+    display: none;
+    color: black;
+    font-size: 300%;
 }

@@ -1,0 +1,77 @@
+<!--REQUIREMENTS-->
+<!--2-4 buttons-->
+<!--1 input field -->
+<!--unique design -->
+<!--new GitHub repository for the game-->
+<!--guess a number between 1-100. -->
+<!--The app should respond if you are 'hot' or 'cold' based on how close you are to the number you are trying to guess.-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title id=jonSnowGame>The Jon Snow Guessing Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="guessingGame.css"/>
+</head>
+
+<body>
+  
+  <!--title-->
+  <div class="banner">
+    <center><h1>The Jon Snow Guessing Game</h1></center>
+  </div>
+  
+  
+  <div class="columns mainPage">  
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-sm-3">
+          <div class="hot-cold">
+            <p class="hot-cold-msg"></p>
+          </div>
+        </div>
+        
+      <div class="col-sm-6 middleColumn">
+        
+        <div id="gif">
+          <center><img src="https://media.giphy.com/media/12BWf7VxMt6tG/giphy.gif"></center>
+        </div>
+        
+        <div class="guess">
+          <label for="guess">How many times was the Lord Commander stabbed?</label>
+          <input class="form-control" id="guess" type="text" placeholder="1-100">
+          <!--<p id="guess-msg">10 guesses left</p>-->
+          <label for="guess" id="guess-msg">10 guesses left</label>
+          <p id="high-msg">You're too high</p>
+          <p id="low-msg">You're too low</p>
+          <p id="duplicate-msg">Oops! No duplicate numbers</p>
+          <p id="win-msg">YOU WIN!</p>
+          <p id="lose-msg">YOU LOSE</p>
+          <p id="hint-msg"></p>
+          <div class="buttons">
+            <button type="button" class="btn-success" id="submitGuess">Submit Guess</button>
+            <button type="button" class="btn-warning" id="hint">Hint</button>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-3">
+        <div class="hot-cold">
+          <p class=hot-cold-msg></p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="guessingGame.js"></script>
+
+</body>
+</html>
